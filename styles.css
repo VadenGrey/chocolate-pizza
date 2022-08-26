@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
+    margin: auto;
+    max-width: 901px;
+}
+
+#header {
+    display: flex;
+}
+
+.left, .right {
+    display: flex;
+    width: 100%;
+    margin: 30px 5px;
+}
+
+.right {
+    justify-content: right;
+}
+
+.left h1 {
+    font-size: 2em;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.left p {
+    font-family: 'Work Sans', sans-serif;;
+    color: grey;
+    font-size: .75em;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.right img {
+    margin-right: 2px;
+    height: 30px;
+    width: 30px;
+}
+
+#pint {
+    margin-right: 10px;
+}
+
+.checker {
+    padding: 6px;
+    background-image: url(assets/hr-img.png);
+    background-repeat: repeat;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 3em;
+}
+.mainFlex {
+    display: flex;
+    color: darkgray;
+    font-family: 'Work Sans', sans-serif;;
+}
+.leftMain {
+    width: 100%;
+}
+.rightMain {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.rightMain img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.ChocPizz {
+    margin-bottom: 30px;
+}
+.text p{
+    text-indent: 20px;
+    color: darkgray;
+    margin-bottom: 30px;
+}
+.strike {
+    text-decoration: line-through;
+}
+.listDiv {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.leftList, .rightList {
+    padding: 20px;
+    width: 100%;
+}
+
+.listContainer {
+    position: relative;
+    height: 340px;
+}
+
+#listPic {
+    position: absolute;
+    z-index: -2;
+}
+
+.listDiv li {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.3em;
+    margin-bottom: 9px;
+    color: #57412a;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.row img {
+    margin-right: 20px;
+}
+.row h3 {
+    margin-bottom: 20px;
+}
+.share p {
+    font-family: 'Work Sans', sans-serif;;
+    background-color: chocolate;
+    color: antiquewhite;
+    padding: 20px 30px;
+    justify-content: right;
+}
+.share {
+    width: 20%;
+}
+.column {
+    width: 70%;
+}
+.divImg {
+    width: 10%
+}
+.bottomLogo {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.divHr {
+    width: 100%;
+    margin: auto;
+}
+.smallerImg {
+    width: 31px;
+    margin: 0px 10px;
+}
+.foot {
+    margin-bottom: 50px;
+}
+.foot p {
+    text-align: center;
+    color: darkgrey;
+}
